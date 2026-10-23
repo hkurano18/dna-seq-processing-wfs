@@ -5,7 +5,7 @@
 		"mem": 10,
 		"cpus": 4
 	},
-	"ref_genome_fa": "/nfs-dev-1-vol-dev-2/reference/GRCh38_hla_decoy_ebv/GRCh38_hla_decoy_ebv.fa",
+	"ref_genome_fa": "/data/reference/reference-genome/GRCh38_hla_decoy_ebv/GRCh38_hla_decoy_ebv.fa",
 	"aligned-seq-QC": {
 		"mem": 10,
 		"cpus": 4
@@ -21,7 +21,7 @@
 		"mem": 2,
 		"cpus": 2
 	},
-	"score_url": "https://score.rdpc-dev.cancercollaboratory.org",
+	"score_url": "https://score.icgc-argo.ncc.go.jp",
 	"gatkCollectOxogMetrics": {
 		"mem": 6,
 		"cpus": 3
@@ -33,14 +33,14 @@
 		"score_cpus": 2,
 		"song_cpus": 2
 	},
-	"song_url": "https://song.rdpc-dev.cancercollaboratory.org",
+	"song_url": "https://song.icgc-argo.ncc.go.jp",
 	"analysis_id": "bfd5a1e4-aa41-4f17-95a1-e4aa412f1721",
 	"download": {
 		"score_mem": 10,
 		"song_mem": 2,
 		"score_cpus": 4,
-		"score_url": "https://submission-score.rdpc-dev.cancercollaboratory.org",
-		"song_url": "https://submission-song.rdpc-dev.cancercollaboratory.org",
+		"score_url": "https://submission-score.icgc-argo.ncc.go.jp",
+		"song_url": "https://submission-song.icgc-argo.ncc.go.jp",
 		"song_cpus": 2
 	},
 	"mem": 4,
@@ -49,7 +49,7 @@
 		"mem": 6,
 		"cpus": 3
 	},
-	"tempdir": "/icgc-argo-scratch",
+	"tempdir": "/data/tmp",
 	"bwaMemAligner": {
 		"mem": 18,
 		"cpus": 6
